@@ -98,7 +98,7 @@ a:hover {
 
 .texture-paper::before {
     background: url(img/texture-paper.png);
-    background-size: 280px 280px
+    background-size: 280px 280px;
 }
 
 .b-parallax {
@@ -379,7 +379,7 @@ a:hover {
 }
 
 .navbar-header img {
-    height: 40px
+    height: 55px
 }
 
 .nav-invert .navbar-header,
@@ -856,17 +856,17 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: rgb(148, 54, 11);
-    color: #FFFFFF !important
+    background:#f3976c;
+    color:#0a0310!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: rgb(148, 54, 11) !important;
-    color: #FFFFFF !important
+    background: #0a0310!important;
+    color:#f3976c!important
 }
 
 .ltc-white {
-    color: #FFFFFF !important
+    color: #FFFFFF !important;
 }
 
 .ltc-white:hover {
@@ -966,6 +966,10 @@ h4 {
         overflow-x: hidden;
         position: relative
     }
+    img {
+        vertical-align: middle;
+        margin: auto;
+    }
 
     h1,
     h2,
@@ -975,9 +979,13 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px !important;
-        padding-right: 10px !important
+        padding-left: 20px !important;
+        padding-right: 20px !important
     }
+    p {
+        text-align: center;
+    }
+    
 
     .b-parallax {
         background-attachment: scroll
@@ -1135,13 +1143,81 @@ h4 {
         padding-left: 0;
         padding-right: 0
     }
+    
+    .social {
+        width:100%;
+        box-sizing: border-box;
+        margin-left: 0px;
+        padding: 0px;
+
+    }
+
+    .partenaire{
+        align-items: initial;
+        text-align: center;
+    }
+    .row{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
 
 @media (max-width:767px) {
+    body{
+        max-width: 767px;
+        padding:0px;
+        margin:0px;
+    }
     .bloc-mob-center-text {
         text-align: center
+    }
+    .social{
+        margin: 20px -42px;
+        box-sizing: border-box;
+    }
+    .social {
+        width:100%;
+        box-sizing: border-box;
+        margin-left: 0px;
+        padding: 0px;
+
+    }
+    .row{
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }
 input:required:invalid {
     border-color: #c00000;
+    box-shadow: 0px 0px 5px red;
+}
+.help-block {
+    display:none;
+}
+/* form:invalid .help-block {
+    display:block;
+} */
+  .btn-atomic-tangerine {
+      letter-spacing: 2px;
   }
+.plan {
+    margin: auto;
+    width:90%;
+    height:30%;
+}
+.planimg {
+
+    height:100%;
+    width:100%;
+}
+#bloc-3-what-i-do, #bloc-8 {
+    background-color:#f3976c;
+    color:black;
+    padding:20px 0px;
+}
+.heros {
+    background-color:#f3976c;
+}
+/* .social {
+    margin-left:-100px;
+} */

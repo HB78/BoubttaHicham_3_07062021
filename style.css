@@ -1222,7 +1222,7 @@ input:required:invalid {
 .heros {
     background-color:#f3976c;
 }
-/* .navbar-toggle {
-    margin: 10px 10px 0 0;
-    border: 0;
-} */
+.photo {
+    width:100%;
+    height: 100%;
+}

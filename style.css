@@ -318,7 +318,11 @@ a:hover {
 }
 
 .nav-center .navbar-brand img {
-    margin: 0
+    margin: 0;
+    /* padding: 0px 10px; */
+}
+.navbar-brand > img {
+    padding: 0px 13px;
 }
 
 .navbar .nav {
@@ -354,7 +358,7 @@ a:hover {
 
 .navbar-toggle .icon-bar {
     background-color: rgba(0, 0, 0, .5);
-    width: 26px
+    width: 26px;
 }
 
 .nav-invert .navbar .nav {
@@ -1218,6 +1222,7 @@ input:required:invalid {
 .heros {
     background-color:#f3976c;
 }
-/* .social {
-    margin-left:-100px;
+/* .navbar-toggle {
+    margin: 10px 10px 0 0;
+    border: 0;
 } */

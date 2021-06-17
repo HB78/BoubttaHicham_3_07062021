@@ -308,8 +308,8 @@ a:hover {
 }
 
 .navbar-brand img {
-    height:auto;
-    width:auto;
+    width: 70%;
+    height: 28%;
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline
@@ -1231,6 +1231,6 @@ input:required:invalid {
     height: 100%;
 }
 .hibou {
-    width: auto;
-    height: auto;
+    width: 28%;
+    height: 28%;
 }

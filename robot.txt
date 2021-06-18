@@ -1,5 +1,5 @@
 User-agent: Mediapartners-Google
-Disallow: contact.html
+Disallow:
 
 User-agent: *
 Disallow: /

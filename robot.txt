@@ -1,0 +1,8 @@
+User-agent: Mediapartners-Google
+Disallow: contact.html
+
+User-agent: *
+Disallow: /
+Allo: /
+
+sitemap:https://hb78.github.io/BoubttaHicham_4_07062021/sitemap.xml

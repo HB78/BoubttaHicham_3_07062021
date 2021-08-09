@@ -989,6 +989,9 @@ h4 {
         margin-left: 0;
         margin-right: 0;
     }
+    .nav-toggle{
+        height: 55px;
+    }
 }
 input:required:invalid {
     border-color: #c00000;
